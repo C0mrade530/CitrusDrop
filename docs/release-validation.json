@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "architecture": [
+    "arm64",
+    "x86_64"
+  ],
+  "binary_sha256": "7bbf026b986187fa00759e3ebe48370e5b1ab9e54017454af556a723d268883b",
+  "core_checks_passed": 41,
+  "managed_only": true,
+  "engine_vendor_seal_after_tests": "passed",
+  "ui_modes": [
+    "Convert changes format and writes JPEG",
+    "Tools Rotate writes PNG with swapped dimensions",
+    "Actions Duplicate writes identical copy and shows results"
+  ],
+  "selection_persistence": [
+    "operation survives processing",
+    "operation survives mode changes",
+    "operation survives language changes"
+  ],
+  "source_sha256_unchanged": true,
+  "platform_run_tested": "Apple silicon",
+  "intel_runtime_verified": false
+}

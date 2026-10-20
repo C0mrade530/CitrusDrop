@@ -1,0 +1,42 @@
+PASS PNG → JPEG with Unicode and shell metacharacters
+PASS No overwrite on repeated conversion
+PASS Same-format output preserves source
+PASS Resize preserves aspect ratio
+PASS Rotate swaps dimensions
+PASS Image → valid PDF
+PASS Merge preserves all PDF pages
+PASS Split creates every page
+PASS Rasterize every PDF page
+PASS Text PDF and text extraction
+PASS HTML escapes source text
+PASS SRT → VTT timing
+PASS Subtitle round trip
+PASS Subtitle plain text excludes cue numbers
+PASS Center crop has requested dimensions
+PASS Flip and grayscale produce valid outputs
+PASS Cancellation stops before conversion
+PASS Cancellation stops image-only PDF merge
+PASS ZIP contains a valid signature
+PASS Folder → TAR.GZ
+PASS Extract restores archive contents
+PASS Archive conversion unpacks and repacks contents
+PASS Security fixture created
+PASS Archive path traversal rejected
+PASS Security fixture created
+PASS Archive links rejected
+PASS Batch generates independent outputs
+PASS Original bytes unchanged
+PASS Arguments are never interpreted as shell code
+PASS Mixed batch exposes only shared conversions
+PASS Image compression creates a smaller opaque JPEG
+PASS PDF compression reduces bytes while retaining pages and text
+PASS Unsupported document operation rejected: compress
+PASS Unsupported document operation rejected: rotate
+PASS Unsupported document operation rejected: strip
+PASS English UI and errors
+PASS Real FFmpeg WAV → MP3
+PASS Lossless audio compression uses M4A
+PASS Video compression produces portable MP4
+PASS Video trim creates playable output
+PASS Real LibreOffice CSV → XLSX
+All checks passed

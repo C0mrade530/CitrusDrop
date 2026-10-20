@@ -1,0 +1,40 @@
+{
+  "suite": "managed-office-final",
+  "date": "2026-10-21",
+  "applicationVersion": "0.2.0",
+  "platform": { "architecture": "arm64", "macOS": "27.0" },
+  "officeEngine": "LibreOffice 26.8.1",
+  "execution": "Rebuilt CitrusDrop CLI through the actual Converter.perform path",
+  "managedOnly": true,
+  "systemEnginesDisabled": true,
+  "fixtures": "Synthetic files in an isolated temporary directory; no user documents",
+  "passed": 8,
+  "checks": [
+    "Fresh managed engine passes deep, strict publisher signature verification before conversion",
+    "HTML referencing the local HTTP fixture image is explicitly rejected with zero HTTP GETs",
+    "TXT to DOCX to PDF to TXT preserves Cyrillic text",
+    "Rich ODT to DOCX to PDF retains two pages, an embedded image and both table cell values",
+    "CSV to XLSX to TSV preserves two columns, UTF-8 and a literal =1+1 cell",
+    "ODP to PPTX to PDF exports both slides with Cyrillic text",
+    "Ordinary HTML hyperlinks remain usable without fetching their remote content",
+    "Managed engine still passes deep, strict publisher signature verification after all conversions"
+  ],
+  "signatureVerification": {
+    "command": "codesign --verify --deep --strict",
+    "requirement": "anchor apple generic and certificate leaf[subject.OU] = \"7P5S3ZLCN7\"",
+    "beforeExitCode": 0,
+    "afterExitCode": 0
+  },
+  "pythonBytecodeProof": {
+    "PYTHONDONTWRITEBYTECODEUnsetInParentEnvironment": true,
+    "CitrusDropSetsPYTHONDONTWRITEBYTECODEForOfficeChild": "1",
+    "vendorResourceSealIntactAfterConversions": true
+  },
+  "localHttpFixtureRequests": 0,
+  "originalSourceBytesUnchanged": true,
+  "richDocumentVisualReview": "Verified Cyrillic heading, orange embedded image and both table cells in the rendered first page",
+  "limits": [
+    "This focused run covers the reported platform and managed engine; it does not establish Intel or macOS 13 compatibility",
+    "Synthetic Office fixtures do not establish fidelity for every font, complex document or native Microsoft Office rendering"
+  ]
+}

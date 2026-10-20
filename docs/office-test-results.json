@@ -1,0 +1,1512 @@
+{
+  "suite": "office",
+  "full": true,
+  "passed": 376,
+  "durationSeconds": 256.81,
+  "checks": [
+    {
+      "name": "ODT → DOC fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → doc fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → DOCX fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → docx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package docx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → RTF fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → rtf fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → HTML fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → html fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Exported HTML embeds images without disposable sidecars",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → XLSX fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → xlsx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → XLS fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → xls fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODP → PPTX fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odp → pptx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package pptx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODP → PPT fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odp → ppt fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → DOC",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → doc",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → DOCX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → docx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package docx",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → ODT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → odt",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odt",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → RTF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → rtf",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → TXT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → txt",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → HTML",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → html",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .odt",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → EPUB",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → epub",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package epub",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .odt",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .odt",
+      "status": "passed"
+    },
+    {
+      "name": "DOC → DOC",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .doc → doc",
+      "status": "passed"
+    },
+    {
+      "name": "DOC → DOCX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .doc → docx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package docx",
+      "status": "passed"
+    },
+    {
+      "name": "DOC → ODT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .doc → odt",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odt",
+      "status": "passed"
+    },
+    {
+      "name": "DOC → RTF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .doc → rtf",
+      "status": "passed"
+    },
+    {
+      "name": "DOC → TXT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .doc → txt",
+      "status": "passed"
+    },
+    {
+      "name": "DOC → HTML",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .doc → html",
+      "status": "passed"
+    },
+    {
+      "name": "DOC → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .doc → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .doc",
+      "status": "passed"
+    },
+    {
+      "name": "DOC → EPUB",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .doc → epub",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package epub",
+      "status": "passed"
+    },
+    {
+      "name": "DOC → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .doc → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .doc",
+      "status": "passed"
+    },
+    {
+      "name": "DOC → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .doc → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .doc",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → DOC",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → doc",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → DOCX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → docx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package docx",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → ODT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → odt",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odt",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → RTF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → rtf",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → TXT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → txt",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → HTML",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → html",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .docx",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → EPUB",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → epub",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package epub",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .docx",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .docx",
+      "status": "passed"
+    },
+    {
+      "name": "RTF → DOC",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .rtf → doc",
+      "status": "passed"
+    },
+    {
+      "name": "RTF → DOCX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .rtf → docx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package docx",
+      "status": "passed"
+    },
+    {
+      "name": "RTF → ODT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .rtf → odt",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odt",
+      "status": "passed"
+    },
+    {
+      "name": "RTF → RTF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .rtf → rtf",
+      "status": "passed"
+    },
+    {
+      "name": "RTF → TXT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .rtf → txt",
+      "status": "passed"
+    },
+    {
+      "name": "RTF → HTML",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .rtf → html",
+      "status": "passed"
+    },
+    {
+      "name": "RTF → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .rtf → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .rtf",
+      "status": "passed"
+    },
+    {
+      "name": "RTF → EPUB",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .rtf → epub",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package epub",
+      "status": "passed"
+    },
+    {
+      "name": "RTF → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .rtf → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .rtf",
+      "status": "passed"
+    },
+    {
+      "name": "RTF → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .rtf → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .rtf",
+      "status": "passed"
+    },
+    {
+      "name": "HTML → DOC",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .html → doc",
+      "status": "passed"
+    },
+    {
+      "name": "HTML → DOCX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .html → docx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package docx",
+      "status": "passed"
+    },
+    {
+      "name": "HTML → ODT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .html → odt",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odt",
+      "status": "passed"
+    },
+    {
+      "name": "HTML → RTF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .html → rtf",
+      "status": "passed"
+    },
+    {
+      "name": "HTML → TXT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .html → txt",
+      "status": "passed"
+    },
+    {
+      "name": "HTML → HTML",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .html → html",
+      "status": "passed"
+    },
+    {
+      "name": "HTML → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .html → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .html",
+      "status": "passed"
+    },
+    {
+      "name": "HTML → EPUB",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .html → epub",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package epub",
+      "status": "passed"
+    },
+    {
+      "name": "HTML → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .html → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .html",
+      "status": "passed"
+    },
+    {
+      "name": "HTML → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .html → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .html",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → TXT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → txt",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → MD",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → md",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → HTML",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → html",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .txt",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → DOC",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → doc",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → DOCX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → docx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package docx",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → ODT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → odt",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odt",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → RTF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → rtf",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → EPUB",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → epub",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package epub",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .txt",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .txt",
+      "status": "passed"
+    },
+    {
+      "name": "MD → TXT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → txt",
+      "status": "passed"
+    },
+    {
+      "name": "MD → MD",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → md",
+      "status": "passed"
+    },
+    {
+      "name": "MD → HTML",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → html",
+      "status": "passed"
+    },
+    {
+      "name": "MD → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .md",
+      "status": "passed"
+    },
+    {
+      "name": "MD → DOC",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → doc",
+      "status": "passed"
+    },
+    {
+      "name": "MD → DOCX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → docx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package docx",
+      "status": "passed"
+    },
+    {
+      "name": "MD → ODT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → odt",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odt",
+      "status": "passed"
+    },
+    {
+      "name": "MD → RTF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → rtf",
+      "status": "passed"
+    },
+    {
+      "name": "MD → EPUB",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → epub",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package epub",
+      "status": "passed"
+    },
+    {
+      "name": "MD → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .md",
+      "status": "passed"
+    },
+    {
+      "name": "MD → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .md",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → XLSX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → XLS",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → xls",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → ODS",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → ods",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package ods",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → CSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → csv",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → TSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → tsv",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .ods",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .ods",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .ods",
+      "status": "passed"
+    },
+    {
+      "name": "CSV → XLSX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .csv → xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "CSV → XLS",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .csv → xls",
+      "status": "passed"
+    },
+    {
+      "name": "CSV → ODS",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .csv → ods",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package ods",
+      "status": "passed"
+    },
+    {
+      "name": "CSV → CSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .csv → csv",
+      "status": "passed"
+    },
+    {
+      "name": "CSV → TSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .csv → tsv",
+      "status": "passed"
+    },
+    {
+      "name": "CSV → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .csv → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .csv",
+      "status": "passed"
+    },
+    {
+      "name": "CSV → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .csv → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .csv",
+      "status": "passed"
+    },
+    {
+      "name": "CSV → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .csv → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .csv",
+      "status": "passed"
+    },
+    {
+      "name": "TSV → XLSX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .tsv → xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "TSV → XLS",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .tsv → xls",
+      "status": "passed"
+    },
+    {
+      "name": "TSV → ODS",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .tsv → ods",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package ods",
+      "status": "passed"
+    },
+    {
+      "name": "TSV → CSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .tsv → csv",
+      "status": "passed"
+    },
+    {
+      "name": "TSV → TSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .tsv → tsv",
+      "status": "passed"
+    },
+    {
+      "name": "TSV → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .tsv → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .tsv",
+      "status": "passed"
+    },
+    {
+      "name": "TSV → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .tsv → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .tsv",
+      "status": "passed"
+    },
+    {
+      "name": "TSV → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .tsv → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .tsv",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → XLSX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → XLS",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → xls",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → ODS",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → ods",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package ods",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → CSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → csv",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → TSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → tsv",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "XLS → XLSX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xls → xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "XLS → XLS",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xls → xls",
+      "status": "passed"
+    },
+    {
+      "name": "XLS → ODS",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xls → ods",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package ods",
+      "status": "passed"
+    },
+    {
+      "name": "XLS → CSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xls → csv",
+      "status": "passed"
+    },
+    {
+      "name": "XLS → TSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xls → tsv",
+      "status": "passed"
+    },
+    {
+      "name": "XLS → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xls → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .xls",
+      "status": "passed"
+    },
+    {
+      "name": "XLS → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xls → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .xls",
+      "status": "passed"
+    },
+    {
+      "name": "XLS → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xls → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .xls",
+      "status": "passed"
+    },
+    {
+      "name": "ODP → PPTX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odp → pptx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package pptx",
+      "status": "passed"
+    },
+    {
+      "name": "ODP → PPT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odp → ppt",
+      "status": "passed"
+    },
+    {
+      "name": "ODP → ODP",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odp → odp",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odp",
+      "status": "passed"
+    },
+    {
+      "name": "ODP → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odp → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .odp",
+      "status": "passed"
+    },
+    {
+      "name": "ODP → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odp → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .odp",
+      "status": "passed"
+    },
+    {
+      "name": "ODP → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odp → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .odp",
+      "status": "passed"
+    },
+    {
+      "name": "PPTX → PPTX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .pptx → pptx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package pptx",
+      "status": "passed"
+    },
+    {
+      "name": "PPTX → PPT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .pptx → ppt",
+      "status": "passed"
+    },
+    {
+      "name": "PPTX → ODP",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .pptx → odp",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odp",
+      "status": "passed"
+    },
+    {
+      "name": "PPTX → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .pptx → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .pptx",
+      "status": "passed"
+    },
+    {
+      "name": "PPTX → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .pptx → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .pptx",
+      "status": "passed"
+    },
+    {
+      "name": "PPTX → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .pptx → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .pptx",
+      "status": "passed"
+    },
+    {
+      "name": "PPT → PPTX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ppt → pptx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package pptx",
+      "status": "passed"
+    },
+    {
+      "name": "PPT → PPT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ppt → ppt",
+      "status": "passed"
+    },
+    {
+      "name": "PPT → ODP",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ppt → odp",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odp",
+      "status": "passed"
+    },
+    {
+      "name": "PPT → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ppt → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .ppt",
+      "status": "passed"
+    },
+    {
+      "name": "PPT → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ppt → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .ppt",
+      "status": "passed"
+    },
+    {
+      "name": "PPT → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ppt → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .ppt",
+      "status": "passed"
+    },
+    {
+      "name": "TSV → XLSX TSV import regression",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .tsv → xlsx TSV import regression",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx TSV import regression",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → TSV TSV roundtrip",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → tsv TSV roundtrip",
+      "status": "passed"
+    },
+    {
+      "name": "TSV has two columns and preserves Cyrillic/formula text",
+      "status": "passed"
+    },
+    {
+      "name": "CSV → XLSX semicolon CSV regression",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .csv → xlsx semicolon CSV regression",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx semicolon CSV regression",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → CSV CSV roundtrip",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → csv CSV roundtrip",
+      "status": "passed"
+    },
+    {
+      "name": "CSV delimiter detection respects quotes and Cyrillic",
+      "status": "passed"
+    },
+    {
+      "name": "Unsupported EPUB/Pages/Keynote imports are not advertised",
+      "status": "passed"
+    },
+    {
+      "name": "Shell metacharacters were not executed",
+      "status": "passed"
+    }
+  ]
+}

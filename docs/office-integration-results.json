@@ -1,0 +1,336 @@
+{
+  "suite": "office",
+  "full": false,
+  "passed": 82,
+  "durationSeconds": 53.56,
+  "checks": [
+    {
+      "name": "ODT → DOC fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → doc fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Valid legacy Office signature doc fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → DOCX fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → docx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package docx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → RTF fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → rtf fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODT → HTML fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odt → html fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Exported HTML embeds images without disposable sidecars",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → XLSX fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → xlsx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODS → XLS fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .ods → xls fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Valid legacy Office signature xls fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODP → PPTX fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odp → pptx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package pptx fixture",
+      "status": "passed"
+    },
+    {
+      "name": "ODP → PPT fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .odp → ppt fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Valid legacy Office signature ppt fixture",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .docx",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → EPUB",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → epub",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package epub",
+      "status": "passed"
+    },
+    {
+      "name": "DOCX → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .docx → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .docx",
+      "status": "passed"
+    },
+    {
+      "name": "HTML → DOCX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .html → docx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package docx",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .txt",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → HTML",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → html",
+      "status": "passed"
+    },
+    {
+      "name": "TXT → DOCX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .txt → docx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package docx",
+      "status": "passed"
+    },
+    {
+      "name": "MD → ODT",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .md → odt",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odt",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → CSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → csv",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → TSV",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → tsv",
+      "status": "passed"
+    },
+    {
+      "name": "TSV → XLSX",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .tsv → xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx",
+      "status": "passed"
+    },
+    {
+      "name": "PPTX → PDF",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .pptx → pdf",
+      "status": "passed"
+    },
+    {
+      "name": "PDF text and pages .pptx",
+      "status": "passed"
+    },
+    {
+      "name": "PPTX → PNG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .pptx → png",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .pptx",
+      "status": "passed"
+    },
+    {
+      "name": "PPTX → JPG",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .pptx → jpg",
+      "status": "passed"
+    },
+    {
+      "name": "Every page rasterized .pptx",
+      "status": "passed"
+    },
+    {
+      "name": "PPTX → ODP",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .pptx → odp",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package odp",
+      "status": "passed"
+    },
+    {
+      "name": "TSV → XLSX TSV import regression",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .tsv → xlsx TSV import regression",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx TSV import regression",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → TSV TSV roundtrip",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → tsv TSV roundtrip",
+      "status": "passed"
+    },
+    {
+      "name": "TSV has two columns and preserves Cyrillic/formula text",
+      "status": "passed"
+    },
+    {
+      "name": "CSV → XLSX semicolon CSV regression",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .csv → xlsx semicolon CSV regression",
+      "status": "passed"
+    },
+    {
+      "name": "Valid package xlsx semicolon CSV regression",
+      "status": "passed"
+    },
+    {
+      "name": "XLSX → CSV CSV roundtrip",
+      "status": "passed"
+    },
+    {
+      "name": "Original preserved .xlsx → csv CSV roundtrip",
+      "status": "passed"
+    },
+    {
+      "name": "CSV delimiter detection respects quotes and Cyrillic",
+      "status": "passed"
+    },
+    {
+      "name": "Unsupported EPUB/Pages/Keynote imports are not advertised",
+      "status": "passed"
+    },
+    {
+      "name": "Shell metacharacters were not executed",
+      "status": "passed"
+    }
+  ]
+}

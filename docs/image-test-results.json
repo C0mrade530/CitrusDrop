@@ -1,0 +1,202 @@
+{
+  "managed_only": true,
+  "application": "dist/CitrusDrop.app/Contents/MacOS/CitrusDrop",
+  "image_outputs": [
+    {
+      "format": "png",
+      "bytes": 997,
+      "decoded": true,
+      "frames": 1,
+      "height": 160,
+      "width": 256
+    },
+    {
+      "format": "jpg",
+      "bytes": 4187,
+      "decoded": true,
+      "frames": 1,
+      "height": 160,
+      "width": 256
+    },
+    {
+      "format": "heic",
+      "bytes": 1139,
+      "decoded": true,
+      "frames": 1,
+      "height": 160,
+      "width": 256
+    },
+    {
+      "format": "tiff",
+      "bytes": 126230,
+      "decoded": true,
+      "frames": 1,
+      "height": 160,
+      "width": 256
+    },
+    {
+      "format": "bmp",
+      "bytes": 122934,
+      "decoded": true,
+      "frames": 1,
+      "height": 160,
+      "width": 256
+    },
+    {
+      "format": "gif",
+      "bytes": 9623,
+      "decoded": true,
+      "frames": 1,
+      "height": 160,
+      "width": 256
+    },
+    {
+      "format": "webp",
+      "bytes": 636,
+      "decoded": true,
+      "frames": 1,
+      "height": 160,
+      "width": 256
+    },
+    {
+      "format": "avif",
+      "bytes": 401,
+      "decoded": true,
+      "frames": 1,
+      "height": 160,
+      "width": 256
+    },
+    {
+      "format": "pdf",
+      "bytes": 90802,
+      "decoded": true,
+      "height": 160,
+      "pages": 1,
+      "width": 256
+    }
+  ],
+  "media_outputs": [
+    {
+      "kind": "audio",
+      "format": "mp3",
+      "codec": "mp3",
+      "bytes": 6028
+    },
+    {
+      "kind": "audio",
+      "format": "m4a",
+      "codec": "aac",
+      "bytes": 24405
+    },
+    {
+      "kind": "audio",
+      "format": "aac",
+      "codec": "aac",
+      "bytes": 23773
+    },
+    {
+      "kind": "audio",
+      "format": "wav",
+      "codec": "pcm_s16le",
+      "bytes": 105918
+    },
+    {
+      "kind": "audio",
+      "format": "flac",
+      "codec": "flac",
+      "bytes": 22906
+    },
+    {
+      "kind": "audio",
+      "format": "ogg",
+      "codec": "vorbis",
+      "bytes": 6844
+    },
+    {
+      "kind": "audio",
+      "format": "opus",
+      "codec": "opus",
+      "bytes": 25549
+    },
+    {
+      "kind": "audio",
+      "format": "aiff",
+      "codec": "pcm_s16be",
+      "bytes": 105894
+    },
+    {
+      "kind": "video",
+      "format": "mp4",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "bytes": 36496
+    },
+    {
+      "kind": "video",
+      "format": "webm",
+      "video_codec": "vp9",
+      "audio_codec": "opus",
+      "bytes": 36623
+    }
+  ],
+  "checks": [
+    "Conversion .png → PNG produced nonempty file",
+    "PNG decodes at original 256×160 dimensions",
+    "Conversion .png → JPG produced nonempty file",
+    "JPG decodes at original 256×160 dimensions",
+    "Conversion .png → HEIC produced nonempty file",
+    "HEIC decodes at original 256×160 dimensions",
+    "Conversion .png → TIFF produced nonempty file",
+    "TIFF decodes at original 256×160 dimensions",
+    "Conversion .png → BMP produced nonempty file",
+    "BMP decodes at original 256×160 dimensions",
+    "Conversion .png → GIF produced nonempty file",
+    "GIF decodes at original 256×160 dimensions",
+    "Conversion .png → WEBP produced nonempty file",
+    "WEBP decodes at original 256×160 dimensions",
+    "Conversion .png → AVIF produced nonempty file",
+    "AVIF decodes at original 256×160 dimensions",
+    "Conversion .png → PDF produced nonempty file",
+    "PDF decodes at original 256×160 dimensions",
+    "Original native PNG bytes preserved",
+    "Conversion .wav → MP3 produced nonempty file",
+    "Managed FFmpeg 9.0.2 MP3 output decodes",
+    "Conversion .wav → M4A produced nonempty file",
+    "Managed FFmpeg 9.0.2 M4A output decodes",
+    "Conversion .wav → AAC produced nonempty file",
+    "Managed FFmpeg 9.0.2 AAC output decodes",
+    "Conversion .wav → WAV produced nonempty file",
+    "Managed FFmpeg 9.0.2 WAV output decodes",
+    "Conversion .wav → FLAC produced nonempty file",
+    "Managed FFmpeg 9.0.2 FLAC output decodes",
+    "Conversion .wav → OGG produced nonempty file",
+    "Managed FFmpeg 9.0.2 OGG output decodes",
+    "Conversion .wav → OPUS produced nonempty file",
+    "Managed FFmpeg 9.0.2 OPUS output decodes",
+    "Conversion .wav → AIFF produced nonempty file",
+    "Managed FFmpeg 9.0.2 AIFF output decodes",
+    "Conversion .mov → MP4 produced nonempty file",
+    "Managed FFmpeg 9.0.2 MP4 output has playable video and audio",
+    "Conversion .mov → WEBM produced nonempty file",
+    "Managed FFmpeg 9.0.2 WEBM output has playable video and audio",
+    "Managed audio compression actually reduces bytes",
+    "Original audio/video bytes preserved",
+    "Release executable unchanged during smoke check"
+  ],
+  "application_sha256": "7bbf026b986187fa00759e3ebe48370e5b1ab9e54017454af556a723d268883b",
+  "version": "CitrusDrop 0.2.0",
+  "available_image_formats": [
+    "png",
+    "jpg",
+    "heic",
+    "tiff",
+    "bmp",
+    "gif",
+    "webp",
+    "avif",
+    "pdf"
+  ],
+  "ffmpeg": "ffmpeg version 9.0.2-https://www.martin-riedl.de Copyright (c) 2000-2026 the FFmpeg developers",
+  "passed": 42,
+  "seconds": 5.94
+}
